@@ -1,0 +1,6 @@
+What happens if a service crashes?
+Si el servicio se rompe el contador de visitas se reiniciaría de 0 nuevamente.
+
+How much effort will it take to create a new service? D.R.Y!
+
+Para resolver el problema que actualmente se encuentra presente se tendrá que  crear una base de datos que permita crear  persistencia de la peticiones que se han realizado  sin importar que que el servicio se reinicie o se rompa. Adicionalmente podemos crear un Elastic Load Balancing AWS que nos permita seguir atendiendo peticiones.
